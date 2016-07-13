@@ -1,4 +1,10 @@
 from Myro import *
-motors (0,.5,2.6)
-forward (1,1)
-motors (0,.5,2.6)
+init("sim")
+penDown()
+motors(0,1,22)
+penUp()
+turnBy(65)
+forward(1,1)
+turnBy(110)
+penDown()
+forward(1,1)
