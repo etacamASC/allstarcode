@@ -96,21 +96,18 @@ def findColorSpot(picture, color):
 
 ######################Code Starts Here##################################
 
-def turn():
+def search():
     turnBy(45)
     wait(1)
+def foto():
     picture=takePicture()
     show(picture)
-i=0
-while i<1:
-    turn()
     returnedValue = findColorSpot(picture,4)
     if returnedValue !=0:
-        forward(1,5)
-i=1
-while i<2:
-    turn()
-    returnedValue = findColorSpot(picture,3)
-    if returnedValue !=0:
-        forward(1,5)
-        i=i+1
+        forward(1,5
+    else:
+        search()
+i=0
+while i<1:
+    search()
+    foto()
