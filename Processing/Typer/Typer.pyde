@@ -8,7 +8,7 @@ y=randint(0,500)
 def setup():
     size(500,500)
 def draw():
-    sleep(.1)
+    sleep(.01)
     global a,e,x,y
     background(0)
     r=randint(0,255)
@@ -18,15 +18,26 @@ def draw():
     text(a,x,y)
     fill(r,g,b)
     x=x+3
+    if x>450:
+        e=e+1
+        x=0
+        y=randint(0,500)
+        a=choice(myList)
+    if e==4:
+        background(0)
+        text("You Lose",180,250)
+        if keyPressed:
+            if key=="1":
+                e=0
+                background(0)
+                x=0
+                y=randint(0,500)
+                a=choice(myList)
     if keyPressed:
         if key==a:
             background(255)
             x=0
             y=randint(0,500)
             a=choice(myList)
-        else:
+        elif e<4:
             e=e+1
-    if x>480:
-    if e==10:
-        background(0)
-        text("You Lose",180,250)
