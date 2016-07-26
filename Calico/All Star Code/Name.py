@@ -1,0 +1,37 @@
+#Code draws my initials E.T#
+#Note: the simulator is not perfect#
+
+from Myro import *
+init("sim")
+def Erik():
+    penDown()
+    turnBy(90)
+    forward(1,2)
+    turnBy(90)
+    forward(1,4)
+    turnBy(90)
+    forward(1,2)
+    backward(1,2)
+    turnBy(90)
+    forward(1,2)
+    turnBy(270)
+    forward(1,1)
+def Tacam():
+    penDown()
+    forward(1,4)
+    backward(1,2)
+    turnBy(270)
+    forward(1,4)
+turnBy(90)
+forward(1,4)
+Erik() 
+penUp() 
+forward(1,2)
+turnBy(90)
+forward(1,2)
+turnBy(270)
+Tacam()
+penUp()
+turnBy(270)
+forward(1,2)
+penDown()

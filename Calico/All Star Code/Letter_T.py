@@ -1,3 +1,5 @@
+#Code draws the letter t in simulator#
+
 from Myro import *
 init("sim")
 def Tacam():

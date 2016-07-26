@@ -1,3 +1,5 @@
+#Code draws the letter e in simulator#
+
 from Myro import *
 init("sim")
 def Erik():

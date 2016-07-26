@@ -1,3 +1,5 @@
+#Code draws two different squares from a vertex#
+
 from Myro import *
 init("sim")
 penDown()

@@ -1,7 +1,4 @@
-"""
-By Jordane Thomas, and Erik Tacan AllStar Code Goldman Sachs Cohort
-2016
-"""
+
 from time import *
 from random import *
 

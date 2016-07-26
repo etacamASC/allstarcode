@@ -1,3 +1,7 @@
+#Code will change the pixels of an image to...#
+#recreate a similar image from Obama's 2008...#
+#presidential campaign#
+
 from Myro import *
 ObamaDarkBlue = makeColor(0,51,76)
 ObamaRed = makeColor(217, 26, 33)

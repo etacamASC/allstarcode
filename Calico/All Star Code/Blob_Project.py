@@ -1,6 +1,7 @@
 from Myro import *
 from Graphics import *
 from random import *
+from sys import *
 
 width = 500
 height = 500
@@ -96,6 +97,8 @@ def findColorSpot(picture, color):
 
 ######################Code Starts Here##################################
 
+#Code is set to find the yellow blob but color could change in line 108#
+
 def search():
     turnBy(45)
     wait(1)
@@ -103,11 +106,13 @@ def foto():
     picture=takePicture()
     show(picture)
     returnedValue = findColorSpot(picture,4)
-    if returnedValue !=0:
-        forward(1,5
+    if returnedValue != 0:
+        forward(1,5)
+        exit(0)
     else:
         search()
 i=0
 while i<1:
     search()
     foto()
+
