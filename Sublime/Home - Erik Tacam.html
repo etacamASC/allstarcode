@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://freeyork.org/wp-content/uploads/2012/12/Cinemagraph06.gif');
+      background-size: 1366px 495px;
+      background-position: center;
+    }
+    body {
+      background-color: rgba(203,182,119,1);
+    }
+    a {
+      font-family: "Copperplate Gothic Light";
+      color: rgba(255,255,255,1);
+    }
+    h1 {
+      font-family: "Copperplate Gothic Light";
+      font-size: 70px;
+      color: rgba(241,90,34,1);
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 0px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto; 
+      color: rgba(0,0,255,1);
+      display: inline;
+      text-align: center;
+      font-size: 25px;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+<audio src="Best.mp3" autoplay loop>
+</audio>
+</head>
+<body>
+  <header>
+    <img src="http://i.imgur.com/brcH9qQ.jpg">
+    <h1>Erik Tacam</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Profile</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Hello! I'm Erik Tacam from NYC. Click on the tabs above to learn more.</h2>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
