@@ -21,7 +21,7 @@ h6 {
     font-weight: 400;
 }
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
@@ -91,7 +91,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(http://i.imgur.com/AhaIfeb.jpg) no-repeat center center;
+    background: url(http://tgsus.com/wp-content/uploads/2016/01/1200px-NYC_Top_of_the_Rock_Pano.jpg) no-repeat center center;
     background-size: cover;
 }
 .banner h2 {
